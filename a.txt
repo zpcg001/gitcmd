@@ -1,1 +1,28 @@
-test
+
+
+生成key
+添加key
+
+设置email & name
+git config --global user.name "your name"
+git config --global user.email "your_email@youremail.com"
+ 
+git init
+本地仓库与远程相关联
+git remote add origin git@github.com:yourName/yourRepo.git
+
+删除本地分支
+git branch -d xx
+git branch -D xx
+
+删除远程分支
+git push origin --delete xx
+
+查看本地分支
+git branch
+
+查看远程分支
+git branch -r
+
+查看本地及远程分支
+git branch -a
