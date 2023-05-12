@@ -28,6 +28,11 @@ git branch -r
 查看本地及远程分支
 git branch -a
 
+#删除文件
+git rm --cached <file>
+git commit -m "Remove file"
+git push
+
 #合并他人分支
 # 查看当前项目下远程
 # git remote
